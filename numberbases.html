@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Bases</title>
+</head>
+<body>
+    
+
+    <p>people count stuff. That means when they have things around them they naturally<br>
+    want to know how many of each kind or how many of everything. They start to <br>
+    count either in their subconscious or on purpose to get an idea how many are or<br>
+    they could use perhaps. </p>
+    <p>There are systems of counting by many societies. One society I know of counts in fives<br>
+        and I'm sure that there are those that count in eights or sixes. But in english people count<br>
+        in tens: zero one two three four five six seven eight nine one-zero(ten). After this one starts again like:<br>
+        ten-one ten-two ten-three ten-four ten-five ten-six ten-seven ten-eight ten-nine two-zero or two-tens(twenty).<br>
+        After this you start again using two-ten or twenty like this: twenty-one twenty-two... etc and on and one<br>
+
+    </p>
+    <p>Now computers count in twos. That means:zero  one one-zero(ten), ten-one one-zero-zero(one hundred) and so on...</p>
+    <p>This is how you count in twos for ten counts:</p>    
+    <p id ="numb">0, 1, 10, 11, 100, 101, 110, 111, 1000, 1001, 1010</p>
+    <p> 1 is added to the numbers to get to the next number as usual in number counting, but here we are counting using a <br>
+    <i>base</i> of 2. It is also called counting in base 2 and it may be written like this: <b>N</b><sub>2</sub></p>
+    <p>N designates the number so 1010 is better written as <b>1010</b><sub>2</sub>. </p>
+    <p>We know that <b>1010</b><sub>2</sub>=<b>10</b><sub>10</sub></p>
+    <p>To get any number in base-10, use the input box: <input type="number" id="numb1" placeholder="number"><input type="number" id="base" placeholder="in base less than 17" value="4"><br>
+    <span id="result1" style="background-color: aquamarine;"></span><span  id = 'basest'></span></p>
+    <!--Converting between base 10 and another base system-->
+    <!--Converting back to base 10 number system-->
+   <!-- <script src="scripts_fun/number_base_fun.js">
+        
+    </script>-->
+    <script type="module" src="./src/app.js">
+    </script>
+    <p>Lets count in eights or lets count in base 8. Here we go:
+
+    </p>
+    <p id="count">0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 13, 14, 15, 16, 17, 20, 21, 22, 23, 24, 25, 26, 27, 30...</p>
+    <p>You can see here that there is no '8' in the base 8 system. the number '8' is written like '10'. So in base-8 eight is<br>
+    is the ten there.</p>
+    <p>A number in a base such as 134 in base 8 can't have 8 or a number greater than 8 in among its digits. For instance<br>
+    you can't have 2394<sub>8</sub> because both 8 and 9 are equal to or greater than 8.</p>
+
+    <!-- Calculations in bases-->
+    <!--adding and subtracting-->
+    <p>When adding in other bases certain things must be taken in account such as <i>carries</i> and <i>borrows</i>.</p>
+    <p>for instance:<br>
+    4<sub>5</sub>+3<sub>5</sub>=12<sub>5</sub></p>
+    <p> This means that 4+3 in base five is 2 greater than 5(or 10).</p>
+    <p>Let us do another one:<br>
+    5<sub>8</sub>+7<sub>8</sub> = 14<sub>8</sub>(12 in base ten. 12-8 = 4)</p>
+    <p>What if you wanted to add 415<sub>6</sub>+344<sub>6</6>?. You will have to do it like the old ways of summing.
+    <p>You could arrange them one on top the other.
+    <br>&nbsp; 415<sub>6</sub></span><br>
+    <span>+</span><span style="text-decoration:underline">344<sub>6</sub></span>
+    
+   
+    
+</body>
+</html>
